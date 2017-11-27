@@ -39,6 +39,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Company.Application\Company.Application.csproj" />
+    <ProjectReference Include="..\Company\Company.csproj" />
   </ItemGroup>
 
 </Project>

@@ -85,7 +85,7 @@ namespace Company.API.Controllers
         }
 
         /// <summary>
-        /// Retorna o uma ou mais empresas.
+        /// Retorna o uma ou mais funcionarios de uma empresa.
         /// </summary>
         /// <remarks>
         /// Exemplo de requisição para obter o primeiro nome do usuário.
