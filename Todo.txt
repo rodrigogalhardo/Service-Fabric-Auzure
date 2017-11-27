@@ -1,0 +1,41 @@
+# Desafio .NET
+
+1 - Pré requisitos
+
+- Usar o Visual Studio 2017
+- Instalar o Microsoft Azure Service Fabric SDK
+https://azure.microsoft.com/pt-br/services/service-fabric/2 
+
+- Objetivo
+
+Criar um projeto ASP.NET expondo uma API REST que tem as seguintes funcionalidades:
+
+1) Listar informações de empresas
+2) Criar uma nova empresa
+3) Listar todos os funcionários de uma empresa
+4) Criar um novo funcionário para uma empresa
+5) Alterar os dados de um funcionário de uma empresa
+6) Remover um funcionário de uma empresa.
+
+Modelo de tipos:  
+
+Empresa:    Deve conter um cnpj, razaosocial, nomefantasia
+Funcionário:    Deve conter nome, sobrenome, data de nascimento, sexo
+
+6) Deve conter uma busca das empresas cadastradas, usando como chave a razao social, devo poder digitar a partir de 3 letras e obter o resultado. Usar queryParameter para isso.
+
+7) Deve conter uma busca dos funcionários da empresa usando como chave o nome e sobrenome.
+
+8) Observações
+
+- Avaliaremos como a API foi modelada ( Swagger ), se segue as boas práticas REST.
+- Lembre-se de versionar a API
+- Lembre-se de expor um endpoint com as informações da API
+
+A aplicação deve rodar localmente um projeto cluster com o service fabric chamando estas funções REST.A forma como a aplicação fara estas ações pode ser desenvolvida de forma livre, avaliaremos a estrutura do projeto também.
+
+9) Seria um grande diferencial criar um teste BDD com a seguinte estória:
+
+Eu como um usuário 
+Gostaria de visualizar as informações dos funcionários de uma empresa
+Para que eu consiga gerenciar os funcionáriose f
